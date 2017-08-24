@@ -1,0 +1,12 @@
+<div class="nav-bottom">
+
+    <button
+        class="button"
+        ng-class="{ 'button_selected': $ctrl.activeOption === $index }"
+        ng-click="action.cb($index)"
+        ng-repeat="action in $ctrl.actions">
+        <icon type="action.condition" size="medium"></icon>
+        {{ action.label }}
+    </button>
+
+</div>

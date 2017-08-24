@@ -1,0 +1,10 @@
+<div class="weather-main">
+
+    <icon ng-if="$ctrl.info.condition" class="weather-main--icon" type="$ctrl.info.condition" size="large"></icon>
+
+    <div class="weather-main--temp">
+        <div class="weather-main--temp_max">{{ $ctrl.info.temp.max }}º</div>
+        <div class="weather-main--temp_min">/ {{ $ctrl.info.temp.min }}º</div>
+    </div>
+
+</div>

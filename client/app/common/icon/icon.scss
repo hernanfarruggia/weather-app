@@ -1,0 +1,20 @@
+@import '../common';
+
+.icon {
+
+    font-family: 'itx-clouds';
+
+    &--clear { color: $yellow; }
+    &--cloud { color: $grayDark; }
+    &--logo { color: $logo; }
+    &--rain { color: $blueLight; }
+
+    &--na {
+        color: $grayDark;
+        font-size: 35px;
+    }
+
+    &--small { font-size: 130px; }
+    &--medium { font-size: 150px; margin-bottom: -20px; } // This -20px is to avoid the svg transparent box get bigger
+    &--large { font-size: 350px; }
+}

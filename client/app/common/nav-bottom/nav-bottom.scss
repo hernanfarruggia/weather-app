@@ -1,0 +1,35 @@
+@import '../common';
+
+.nav-bottom {
+    background-color: $navBottomBg;
+    border-top: 2px solid $navBottomBorder;
+    display: flex;
+    justify-content: space-around;
+
+    .button {
+        align-items: center;
+        background-color: $navBottomBg;
+        border-right: 2px solid $navBottomBorder;
+        color: $navBottomIcon;
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        width: 33.3%;
+
+        &:last-child {
+            border-right: none;
+        }
+
+        &_selected {
+            background-color: $navBottomBgSelected;
+        }
+
+        .icon--medium {
+            color: $navBottomIcon;
+        }
+    }
+}

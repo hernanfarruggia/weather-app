@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'itx-clouds';
+  src:  url('/app/assets/fonts/itx-clouds.eot?8sn0cz');
+  src:  url('/app/assets/fonts/itx-clouds.eot?8sn0cz#iefix') format('embedded-opentype'),
+    url('/app/assets/fonts/itx-clouds.ttf?8sn0cz') format('truetype'),
+    url('/app/assets/fonts/itx-clouds.woff?8sn0cz') format('woff'),
+    url('/app/assets/fonts/itx-clouds.svg?8sn0cz#itx-clouds') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-pack {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'itx-clouds' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pack-Cloud-Download:before {
+  content: "\44";
+}
+.icon-pack-Cloud-Drizzle-Alt:before {
+  content: "\e901";
+}
+.icon-pack-Cloud-Drizzle-Moon-Alt:before {
+  content: "\e902";
+}
+.icon-pack-Cloud-Drizzle-Moon:before {
+  content: "\e903";
+}
+.icon-pack-Cloud-Drizzle-Sun-Alt:before {
+  content: "\e904";
+}
+.icon-pack-Cloud-Drizzle-Sun:before {
+  content: "\e905";
+}
+.icon-pack-Cloud-Drizzle:before {
+  content: "\e906";
+}
+.icon-pack-Cloud-Fog-Alt:before {
+  content: "\e907";
+}
+.icon-pack-Cloud-Fog-Moon-Alt:before {
+  content: "\e908";
+}
+.icon-pack-Cloud-Fog-Moon:before {
+  content: "\e909";
+}
+.icon-pack-Cloud-Fog-Sun-Alt:before {
+  content: "\e90a";
+}
+.icon-pack-Cloud-Fog-Sun:before {
+  content: "\e90b";
+}
+.icon-pack-Cloud-Fog:before {
+  content: "\e90c";
+}
+.icon-pack-Cloud-Hail-Alt:before {
+  content: "\e90d";
+}
+.icon-pack-Cloud-Hail-Moon-Alt:before {
+  content: "\e90e";
+}
+.icon-pack-Cloud-Hail-Moon:before {
+  content: "\e90f";
+}
+.icon-pack-Cloud-Hail-Sun-Alt:before {
+  content: "\e910";
+}
+.icon-pack-Cloud-Hail-Sun:before {
+  content: "\e911";
+}
+.icon-pack-Cloud-Hail:before {
+  content: "\e912";
+}
+.icon-pack-Cloud-Lightning-Moon:before {
+  content: "\e913";
+}
+.icon-pack-Cloud-Lightning-Sun:before {
+  content: "\e914";
+}
+.icon-pack-Cloud-Lightning:before {
+  content: "\e915";
+}
+.icon-pack-Cloud-Moon:before {
+  content: "\e916";
+}
+.icon-pack-Cloud-Rain-Alt:before {
+  content: "\e917";
+}
+.icon-pack-Cloud-Rain-Moon-Alt:before {
+  content: "\e918";
+}
+.icon-pack-Cloud-Rain-Moon:before {
+  content: "\e919";
+}
+.icon-pack-Cloud-Rain-Sun-Alt:before {
+  content: "\e91a";
+}
+.icon-pack-Cloud-Rain-Sun:before {
+  content: "\e91b";
+}
+.icon-pack-Cloud-Rain:before {
+  content: "\e91c";
+}
+.icon-pack-Cloud-Refresh:before {
+  content: "\e91d";
+}
+.icon-pack-Cloud-Snow-Alt:before {
+  content: "\e91e";
+}
+.icon-pack-Cloud-Snow-Moon-Alt:before {
+  content: "\e91f";
+}
+.icon-pack-Cloud-Snow-Moon:before {
+  content: "\e920";
+}
+.icon-pack-Cloud-Snow-Sun-Alt:before {
+  content: "\e921";
+}
+.icon-pack-Cloud-Snow-Sun:before {
+  content: "\e922";
+}
+.icon-pack-Cloud-Snow:before {
+  content: "\e923";
+}
+.icon-pack-Cloud-Sun:before {
+  content: "\e924";
+}
+.icon-pack-Cloud-Upload:before {
+  content: "\e925";
+}
+.icon-pack-Cloud-Wind-Moon:before {
+  content: "\e926";
+}
+.icon-pack-Cloud-Wind-Sun:before {
+  content: "\e927";
+}
+.icon-pack-Cloud-Wind:before {
+  content: "\e928";
+}
+.icon-pack-Cloud:before {
+  content: "\e929";
+}
+.icon-pack-Sun-Low:before {
+  content: "\e92a";
+}
+.icon-pack-Sun-Lower:before {
+  content: "\e92b";
+}
+.icon-pack-Sun:before {
+  content: "\e92c";
+}
+.icon-pack-Sunrise:before {
+  content: "\e92d";
+}
+.icon-pack-Sunset:before {
+  content: "\e92e";
+}
+.icon-pack-Tornado:before {
+  content: "\e92f";
+}
+.icon-pack-Wind:before {
+  content: "\e930";
+}

@@ -1,0 +1,25 @@
+@import '../common';
+
+.weather-main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    &--icon {
+        font-size: 130px;
+    }
+
+    &--temp {
+        color: $gray;
+
+        &_max {
+            font-size: 130px;
+            font-weight: 900;
+        }
+
+        &_min {
+            font-size: 65px;
+            font-weight: 700;
+        }
+    }
+}
